@@ -1,0 +1,285 @@
+body,
+a,
+textarea,
+input {
+  font-family: SourceHanSans, Microsoft YaHei, "宋体", Verdana, Geneva, sans-serif;
+}
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+th,
+td,
+hr,
+blockquote，img {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+html,
+body {
+  padding: 0;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+html,
+body {
+  font-size: 20px;
+}
+img {
+  vertical-align: middle;
+  font-size: 0rem;
+}
+img {
+  width: 100%;
+}
+nav {
+  width: 100%;
+  z-index: 2;
+  text-align: center;
+}
+nav .top-nav {
+  background: #fff;
+  overflow: hidden;
+  position: relative;
+  padding: 0.4rem 0.4rem;
+}
+nav .top-nav .phone {
+  width: 1.25rem;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+nav .top-nav .toplogo {
+  width: 7rem;
+  height: 2.15rem;
+  margin: 0rem 2rem 0rem 2rem;
+}
+nav .top-nav .about_list {
+  position: absolute;
+  width: 1.25rem;
+  top: 1rem;
+  right: 1rem;
+}
+nav .nav-list {
+  width: 100%;
+  z-index: 2;
+  position: absolute;
+  display: none;
+}
+nav .nav-list ul {
+  background: #ccc;
+}
+nav .nav-list ul li {
+  border-bottom: 1px solid #000;
+  padding: 0.2rem;
+}
+nav .nav-list ul li a {
+  color: #000;
+}
+.banner {
+  overflow: hidden;
+}
+.brand {
+  text-align: center;
+}
+.text1 {
+  font-size: 0.5rem;
+  font-weight: lighter;
+  margin: 1rem auto;
+  padding: 0rem 0.75rem;
+}
+.founder {
+  text-align: center;
+}
+.founder .content {
+  margin: 1rem 0rem;
+}
+.founder .content img {
+  width: 7.25rem;
+  height: 12.5rem;
+  float: left;
+}
+.founder .content p {
+  padding: 0.5rem 0.5rem;
+  line-height: 1rem;
+}
+.OUR {
+  padding: 1.5rem 0rem;
+  text-align: center;
+}
+.OUR ul {
+  padding: 1rem;
+  background-size: 100%;
+  background: url(../images/about_21.png) no-repeat;
+}
+.OUR ul li {
+  display: inline-block;
+}
+.OUR ul li img {
+  width: 6.5rem;
+  height: 6.5rem;
+}
+.OUR ul li p {
+  padding: 0.5rem 0rem;
+  font-size: 0.55rem;
+}
+.reasons {
+  text-align: center;
+}
+.reasons p {
+  margin: 1rem auto;
+}
+.honor {
+  text-align: center;
+}
+.honor p {
+  margin: 1rem auto;
+}
+.REPORTS {
+  text-align: center;
+}
+.REPORTS p {
+  margin: 1.5rem auto;
+}
+.REPORTS ul li {
+  margin: 0rem 0rem 1rem 0.2rem;
+  display: inline-block;
+}
+.REPORTS ul li img {
+  width: 7.2rem;
+  height: 5.8rem;
+}
+.problems {
+  text-align: center;
+  overflow: hidden;
+  background: #d3d3d3;
+}
+.problems p {
+  padding: 1rem 1rem 1rem 0rem;
+}
+.problems ul {
+  padding: 1rem;
+}
+.problems01 {
+  text-align: center;
+}
+.problems01 .p00 {
+  padding: 1rem 1rem;
+}
+.problems01 .p01 {
+  margin-top: 1rem;
+}
+.problems01 .p01 span {
+  font-size: 0.35rem;
+  color: #fff;
+  padding: 0.2rem 0.6rem;
+  background: #74c5be;
+  border-radius: 0.2rem;
+}
+.problems01 .p01 span.cur {
+  background: #ed85ad;
+}
+.problems01 .content1 {
+  overflow: hidden;
+}
+.problems01 .content1 ul {
+  padding: 1rem 1rem;
+}
+.problems01 .content1 ul li {
+  padding: 0.5rem 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ed85ad;
+  text-align: left;
+  font-size: 0.5rem;
+}
+.problems01 .connect {
+  padding: 1rem;
+  background-size: 100%;
+  background: url(../images/about_20.png) no-repeat;
+}
+.problems01 .connect span {
+  display: inline-block;
+}
+.problems01 .connect span + span {
+  margin-left: 1.5rem;
+}
+.problems01 .connect span img {
+  width: 3.25rem;
+  height: 3.25rem;
+}
+.problems01 .connect p {
+  font-size: 0.2rem;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  height: 3rem;
+  background-color: #74C5BE;
+  justify-content: space-around;
+  color: #fff;
+  font-size: 0.7rem;
+  line-height: 3rem;
+}
+.footer a {
+  flex: 1;
+  display: block;
+  vertical-align: middle;
+}
+.footer .foot-btn {
+  height: 100%;
+  vertical-align: middle;
+  color: #fff;
+  font-weight: lighter;
+  font-size: 0.7rem;
+}
+/*a + a:before{*/
+/*content: '';*/
+/*height: 80%;*/
+/*width:0;*/
+/*margin:0;*/
+/*vertical-align: middle;*/
+/*border-right: 1px solid black;*/
+/*}*/
+.foot-nav {
+  position: fixed;
+  bottom: 3rem;
+  right: 0;
+  width: 60%;
+  height: 15rem;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.foot-nav ul {
+  width: 100%;
+  height: 100%;
+  margin-top: 1.7rem;
+}
+.foot-nav ul li {
+  display: inline-block;
+  width: calc(30%);
+}
+.foot-nav ul li img {
+  border-radius: 50%;
+  width: 70%;
+}
+.foot-nav ul li span {
+  color: #000;
+  font-size: 0.7rem;
+  margin: 1.5rem auto 0;
+  display: block;
+  margin-top: -2rem;
+}
